@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>favs!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="favs_script.js" defer></script>
+</head>
+
+<body>
+    <div class = "top-nav2">
+        <button class="back-button" onclick="history.back()">
+            &#8592; 
+        </button>
+          
+    </div>
+    <div class = "about-container">
+        <h1>favs!</h1>
+        <form onsubmit="createFavorite(); return false;">
+            <label for="meal_name">meal name:</label>
+            <input type="text" id="meal_name">
+            <br>
+            <label for="meal_type">meal type:</label>
+            <input type="text" id="meal_type">
+            <br>
+            <label for="cooking_difficulty">cooking difficulty:</label>
+            <input type="text" id="cooking_difficulty">
+            <br>
+            <br>
+            <input type="submit" name="Add Favorite">
+        </form>
+    </div>
+    
+</body>
+
+</html>
